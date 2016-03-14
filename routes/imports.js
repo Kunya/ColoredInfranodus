@@ -1282,7 +1282,7 @@ exports.submit = function(req, res,  next) {
                                     var contexts = result;
 
                                     console.log('Extracted contexts from DB with IDs');
-                                    console.log(contexts);
+                                    //console.log(contexts);
 
                                     callback(null, contexts);
                                 }

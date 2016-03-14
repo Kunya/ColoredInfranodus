@@ -718,7 +718,7 @@ sigma.parsers.json(
                     timeout = 4000,
                     nodes = sigma.graph.nodes(),
                     color_context = '#666',
-                    color_addcontext = '#666688',
+                    color_addcontext = '#111111',
                     len = nodes.length;
 
 
@@ -736,7 +736,7 @@ sigma.parsers.json(
                 nodes[i].size = sigma.graph.degree(nodes[i].id);
                 nodesize = nodes[i].size;
                 if (maxnodesize < nodesize) maxnodesize = nodesize;
-                nodes[i].color = color_context;
+             //   nodes[i].color = color_context;
             }
 
             // We first need to save the original colors and LABELS of our
