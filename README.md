@@ -45,6 +45,7 @@ The basic ideas behind InfraNodus are:
 InfraNodus is built on
 
 * [Sigma.Js](http://github.com/jacomyal/sigma.js) for graph visualization;
+* jLouvain algorithm to color graph communities (https://github.com/upphiminn/jLouvain)
 * [Neo4J](http://neo4j.org) for graph database storage (TODO: add support for OrientDB and Titanium);
 * Node.Js
 * Express Node.Js library;
